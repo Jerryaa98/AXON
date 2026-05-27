@@ -1,0 +1,13 @@
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+transformers==4.49.0
+accelerate==0.34.2
+datasets==4.4.1
+evaluate==0.4.6
+lm_eval==0.4.8
+numpy==2.1.2
+packaging==26.0
+regex==2025.11.3
+tqdm==4.67.1
