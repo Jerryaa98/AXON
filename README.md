@@ -3,7 +3,7 @@
 
 <h1>AXON: Supportive Token Revealing for Fast Diffusion Language Model Decoding</h1>
 
-<!-- [![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2602.06953) -->
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/pdf/2606.04236)
 [![license](https://img.shields.io/badge/License-MIT%202.0-blue)](./LICENSE)
 
 </div>
