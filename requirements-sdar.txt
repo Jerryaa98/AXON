@@ -1,0 +1,18 @@
+# SDAR backbone only. SDAR ships custom modeling code that requires a newer
+# transformers than LLaDA/Dream; install this into a SEPARATE environment and
+# run sdar/eval_sdar.py from it. LLaDA and Dream use the root requirements.txt
+# (transformers==4.49.0). Remember to export HF_ALLOW_CODE_EVAL=1 for the
+# code-execution metrics (HumanEval / MBPP).
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+transformers==4.52.4
+accelerate==0.34.2
+datasets==4.4.1
+evaluate==0.4.6
+lm_eval==0.4.8
+numpy==2.1.2
+packaging==26.0
+regex==2025.11.3
+tqdm==4.67.1
