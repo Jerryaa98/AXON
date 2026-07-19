@@ -3,8 +3,12 @@
 # Run LLaDA on a benchmark with one of the four supported AXON variants.
 #
 #   MODEL    = llada15 | llada8b_instruct              (default: llada15)
-#   TASK     = humaneval | mbpp | gsm8k | minerva_math (default: humaneval)
+#   TASK     = humaneval | mbpp | gsm8k | minerva_math
+#            | truthfulqa_gen                           (default: humaneval)
 #   NUM_FEWSHOT  = integer                             (default: 0)
+#
+# TruthfulQA:  TASK=truthfulqa_gen MODEL=llada15 bash run_llada.sh
+#   (open-ended 0-shot generation task; leave NUM_FEWSHOT at its default 0)
 #   VARIANT  = coverage_gap_fixed1 | coverage_gap_cover
 #            | progress_stall_fixed1 | progress_stall_cover | all
 #                                                      (default: coverage_gap_fixed1)
