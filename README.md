@@ -17,7 +17,7 @@ AXON is a **training-free**, plug-in **scheduler** for masked diffusion language
 Both animations decode the same problem (HumanEval/47, `median`) with LLaDA-1.5 and the same base decoder.
 Other methods need 107 steps, and its output fails the unit test; AXON's gate detects the stalls and reveals an anchor, un-blocking the surrounding tokens.
 
-| Other method | Other method + AXON (ours) |
+| Existing Parallel Decoder | Existing Parallel Decoder + AXON (ours) |
 |:---:|:---:|
 | ![DAWN baseline decoding](figure/demo_median_dawn.gif) | ![DAWN + AXON decoding](figure/demo_median_dawn_axon.gif) |
 | 107 steps, fails the unit test | 54 steps, passes the unit test |
